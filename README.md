@@ -1,8 +1,7 @@
 # The Dunder Mifflin Pet Show
 
 
-You're right on your way to help The Dunder Mifflin Paper Company with their brand new application. It is meant to 
-showcase each of the employees' pets. We’ve started some of the work for you, and we need your help to get our site fully working! Here are the deliverables:
+You're right on your way to help The Dunder Mifflin Paper Company with their brand new application. It is meant to showcase each of the employees' pets. We’ve started some of the work for you, and we need your help to get our site fully working! Here are the deliverables:
 
 - Build out the associations for the models we've created. If you look into the `seeds.rb` file, you'll notice that we've put
 in the desired models and expected associations to make our app work. **However**, you need to change the schema in order
