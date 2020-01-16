@@ -1,0 +1,10 @@
+<h1><%= @employee.first_name + ' ' + @employee.last_name%></h1>
+
+Alias: <%= @employee.alias %><br>
+Title: <%= @employee.title %><br>
+Office: <%= @employee.office %><br>
+<% if @employee.dog_id%>
+Dog: <%= link_to(@employee.dog.name, @employee.dog) %><br>
+<% end %>
+<img src=<%="#{@employee.img_url}"%>>
+<%= button_to "Delete #{@employee.first_name}", @employee, :method => :delete%>
