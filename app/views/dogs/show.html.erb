@@ -1,0 +1,10 @@
+<h1><%= @dog.name %></h1>
+<ul>
+    <li>Breed: <%= @dog.breed %></li>
+    <li>Age: <%= @dog.age %></li>
+    <li>Employees: <% @dog.employees.each do |e|%></li>
+                <%= e.first_name %><br>
+    <% end %>
+</ul>
+
+<%= button_to "Disappear a dog", @dog, :method => :delete %>
