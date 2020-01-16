@@ -1,0 +1,31 @@
+<h1>Employee Name</h1>
+
+<label> First Name: </label>
+    <%= @employee.first_name  %></bbr>
+   
+    <label> Last Name: </label> 
+
+    <br><%= @employee.last_name  %></br>
+   
+    <label> Alias: </label>
+    <br><%= @employee.alias  %></br>
+   
+    <label> Title: </label>
+    <br><%= @employee.title %></br>
+   
+    <label> Office:</label>
+    <br><%= @employee.office  %></br>
+   
+    <label> Picture: </label>
+    <br><img src= <%= "#{@employee.img_url}"  %>></br>
+   
+    <label> Dog Id:   </label>
+    <br> <% if @employee.dog_id %></br>
+         <%=   @employee.dog_id %>
+         <% else %>
+         <%= "#{@employee.first_name} does not have a dog. " %>
+         <% end %>
+    </li>
+    </ul>
+
+

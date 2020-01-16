@@ -1,0 +1,9 @@
+<h1>All of Our Dogs </h1>
+<ul>
+    <% @dogs.each do |d| %>
+        <li>
+            <%= link_to d.name, d %>
+        </li>
+    <% end %>
+    </ul>
+
